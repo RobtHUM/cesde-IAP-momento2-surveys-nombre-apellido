@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contac's</title>
+    <link rel="stylesheet" href="sgittyles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ir a inicio</a></li>
+                <li><a href="survey.html">Ir a encuesta</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contactanos</legend>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <label>
+                    <input type="checkbox" name="correct" id="correct" required>
+                    Confirmo que la información proporcionada es correcta.
+                </label>
+
+                <label>
+                    <input type="radio" name="satisfaction" id="satisfied" value="satisfied" required>
+                     Satisfecho
+                </label>
+                <label>
+                    <input type="radio" name="satisfaction" id="unsatisfied" value="unsatisfied" required>
+                     Insatisfecho
+                </label>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

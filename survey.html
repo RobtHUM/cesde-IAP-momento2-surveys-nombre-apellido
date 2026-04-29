@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCUESTA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="title">Cuestionario</li>
+                <li><a href="index.html">Ir a inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Encuesta sobre hábitos de personas programadoras</h1>
+        <!-- Encuesta hecha con los conocimientos adquiridos en el curso de HTML y CSS de Platzi. -->
+        <form>
+        <fieldset>
+            <legend>💻 Entorno y Herramientas <br> ¿Cuál es tu sistema operativo principal para programar?</legend>
+            <label>
+                <input type="radio" name="os" id="windows" value="windows">
+                Windows
+            </label>
+            <label>
+                <input type="radio" name="os" id="linux" value="linux">
+                Linux
+            </label>
+            <label>
+                <input type="radio" name="os" id="macos" value="macOS">
+                MacOS
+            </label>
+            <label>
+                <input type="radio" name="os" id="other" value="other">
+                Otro/Diferente
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>☕ Estilo de Vida y Productividad <br> ¿Cómo prefieres trabajar habitualmente?</legend>
+            <label>
+                <input type="radio" name="evp" id="silent" value="silent">
+                En total silencio
+            </label>
+            <label>
+                <input type="radio" name="evp" id="music" value="music">
+                Con música de fondo
+            </label>
+            <label>
+                <input type="radio" name="evp" id="coffee" value="coffee">
+                Con ruido ambiental (café, parque, etc.)
+            </label>
+            <label>
+                <input type="radio" name="evp" id="podcast" value="podcast">
+                Escuchando Podcasts, audiolibros o videos de mi atención
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>🛠️ Hábitos Técnicos <br> ¿Cuál es tu principal fuente de ayuda cuando te estancas?</legend>
+            <label>
+                <input type="radio" name="habit_tec" id="document_off" value="doc_of">
+                Documentación oficial
+            </label>
+            <label>
+                <input type="radio" name="habit_tec" id="forum" value="forum">
+                Foros de programación (StackOverflow, Reddit, etc.)
+            </label>
+            <label>
+                <input type="radio" name="habit_tec" id="ia" value="ia">
+                Inteligencia Artificial (ChatGPT, Copilot, etc.)
+            </label>
+            <label>
+                <input type="radio" name="habit_tec" id="friend" value="friend">
+                Preguntar a un amigo o colega
+            </label>
+        </fieldset>
+        </form>
+    </main>
+</body>
+</html>
